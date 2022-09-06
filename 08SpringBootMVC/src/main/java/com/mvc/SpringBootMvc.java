@@ -1,0 +1,12 @@
+package com.mvc;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootMvc {
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootMvc.class, args);
+		System.out.println("Server has started successfully!!!");
+	}
+}
